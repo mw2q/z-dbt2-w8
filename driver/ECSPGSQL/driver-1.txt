@@ -1,0 +1,89 @@
+connecting to client at 'localhost'
+connecting to client port at '30000'
+
+database table cardinalities:
+warehouses = 4
+districts = 10
+customers = 3000
+items = 100000
+orders = 3000
+stock = 100000
+new-orders = 900
+
+transaction mix:
+new-order mix 0.45
+payment mix 0.43
+order-status mix 0.04
+delivery mix 0.04
+stock-level mix 0.04
+
+transaction thresholds:
+new-order threshold 0.45
+payment threshold 0.88
+order-status threshold 0.92
+delivery threshold 0.96
+stock-level threshold 1.00
+
+delivery keying time 0 s
+new_order keying time 0 s
+order-status keying time 0 s
+payment keying time 0 s
+stock-level keying time 0 s
+
+delivery thinking time 0 ms
+new_order thinking time 0 ms
+order-status thinking time 0 ms
+payment thinking time 0 ms
+stock-level thinking time 0 ms
+
+w_id range 1 to 4
+
+10 terminals per warehouse
+
+600 second steady state duration
+
+driver is starting to ramp up at time 1430501905
+driver will ramp up in  3 seconds
+will stop test at time 1430502508
+seed for 24134:fd42b910 : 2818816231
+seed for 24134:fd18d910 : 2824817539
+seed for 24134:fd16d910 : 2824021337
+seed for 24134:fd14d910 : 2823859249
+seed for 24134:fd12d910 : 2824347878
+seed for 24134:fd10d910 : 2824442913
+seed for 24134:fd0ed910 : 2822835564
+seed for 24134:fd0cd910 : 2822931705
+seed for 24134:fd0ad910 : 2823161677
+seed for 24134:fd08d910 : 2823468484
+seed for 24134:fd06d910 : 2823172557
+seed for 24134:fd04d910 : 2823006774
+seed for 24134:fd02d910 : 2823227118
+seed for 24134:fd00d910 : 2823094005
+seed for 24134:fcfed910 : 2847146947
+seed for 24134:fcfcd910 : 2847268240
+seed for 24134:fcfad910 : 2847234104
+seed for 24134:fcf8d910 : 2847327686
+seed for 24134:fcf6d910 : 2847211702
+seed for 24134:fcf4d910 : 2847224042
+seed for 24134:fcf2d910 : 2847035219
+seed for 24134:fcf0d910 : 2847397323
+seed for 24134:fceed910 : 2846574532
+seed for 24134:fcecd910 : 2846409754
+seed for 24134:fcead910 : 2845852117
+seed for 24134:fce8d910 : 2845953394
+seed for 24134:fce6d910 : 2846472722
+seed for 24134:fce4d910 : 2846540760
+seed for 24134:fce2d910 : 2845925687
+seed for 24134:fce0d910 : 2846017764
+seed for 24134:fcded910 : 2845752555
+seed for 24134:fcdcd910 : 2845454527
+seed for 24134:fcdad910 : 2845817400
+seed for 24134:fcd8d910 : 2844989809
+seed for 24134:fcd6d910 : 2845606015
+seed for 24134:fcd4d910 : 2845576437
+seed for 24134:fcd2d910 : 2845673576
+seed for 24134:fcd0d910 : 2845668699
+seed for 24134:fcced910 : 2844636629
+seed for 24134:fcccd910 : 2844601274
+terminals started...
+driver is exiting normally
